@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import logger from "./logger";
 
 dotenv.config();
-const port = +(process.env.PORT || "5001");
+const port = +(process.env.PORT || "8002");
 
 class App {
 
